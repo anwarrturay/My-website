@@ -1,0 +1,46 @@
+/* ABOUT PAGE */
+.about-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aboutme{
+  background: linear-gradient(to left,#8ecdff,whitesmoke);
+  background-position: auto;
+  background-attachment: scroll;
+  background-size: cover;
+ 
+  position: relative;
+  margin-left: -11px;
+  margin-right: -11px;
+  margin-bottom: 70px;
+}
+.aboutme-profile,
+.about-welcoming-text,
+.aboutme-main-profile{
+  text-align: center;
+    
+}
+
+.aboutimage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.about-col{
+  color: black;
+  flex-basis: 31%;
+  background: #99c9f1;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 24px 12px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.about-col:hover{
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
+}
+/* END OF ABOUT PAGE */

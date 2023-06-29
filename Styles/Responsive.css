@@ -1,0 +1,27 @@
+/* @media (max-width: 400px){
+  .container-fluid{
+    width: 100%;
+  }
+  body{
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  .homepage-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .homepage-image{
+    width: 120px;
+    margin-left: -48px;
+    margin-top: 80px;
+  }
+  .homepage-profile{
+    font-size: 5px;
+  }
+  .homepage-text-container .hello-text-container .hellotext{
+    font-size: 10px;
+  }
+} */

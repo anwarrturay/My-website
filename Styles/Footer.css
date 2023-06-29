@@ -1,0 +1,23 @@
+/* FOOTER */
+.footer{
+  justify-content: center;
+  background: linear-gradient(to left,#8ecdff,whitesmoke);
+  padding: 40px;
+  margin: 0 0;
+}
+.fa-brands fa-whatsapp fa-4x text-white{
+  margin: 20px;
+  cursor: pointer;
+}
+.fa-brands fa-github fa-4x text-white{
+  margin: 20px;
+  cursor: pointer;
+}
+.fa-brands fa-twitter fa-4x text-white{
+  margin: 20px;
+  cursor: pointer;
+}
+#para{
+  color: black;
+}
+/* END OF FOOTER */
