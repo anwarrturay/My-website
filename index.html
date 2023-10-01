@@ -22,18 +22,18 @@
     
 </head>
 <body>
-    <nav>
-        <div class="logo-container">
-            <p><span class="first-character-style">AT</span><span class="logo-name">uray</span></p>
-        </div>
-        
-        <ul class="pages">
-            <li><a href="#id_index">Home</a></li>
-            <li><a href="#id_mySkills">My Skills</a></li>
-            <li><a href="#id_about">About</a></li>
-            <li><a href="#id_contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a href="#" class="logo"><span>toure</span></a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#id_index">Home</a></li>
+                <li><a href="#id_mySkills">My Skills</a></li>
+                <li><a href="#id_about">About</a></li>
+                <li><a href="#id_contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
         <section class="homepage">
             <!-- HOME PAGE -->
             <div class="container-fluid">
@@ -79,34 +79,11 @@
                         <h1>My Skills</h1><br><br>
                     </div>
                     <div class="myskills-info-container">
-                        <p>
                             As a web developer, I normally render help to people on various aspect of web development,more especially those who  want to be professionals in front end web development languages.
                             Below are some the web development languages I covered for people all around the globe.
-                        </p><br><br>
-                    </div>
+                    </div><br><br>
                     <div class="skills-rows">
-                        <div class="first-columns">
-                            <div class="html-pic">
-                                <img class="skills-picture" src="img/HTML PIC.png" alt="">
-                            </div>
-                            <div class="css-pic">
-                                <img class="skills-picture" src="img/CSS PIC.jpg" alt="">
-                            </div>
-                            <div class="bootstrap-pic">
-                                <img class="skills-picture" src="img/BOOTSTRAP PIC.jpg" alt="">
-                            </div>
-                        </div>
-                       <div class="second-columns">
-                            <div class="angular-pic">
-                                <img class="skills-picture" src="img/ANGULAR PIC.png" alt="">
-                            </div>
-                            <div class="javascript-pic">
-                                <img class="skills-picture" src="img/JS PIC.png" alt="">
-                            </div>
-                            <div class="c-programming-pic">
-                                <img class="skills-picture" src="img/C pic.jpg" alt="">
-                            </div>
-                       </div>
+
                           
                     </div>
             </div>
@@ -175,16 +152,17 @@
                             <!--Contact me form-->
                         <div class="contactme-form">
                                 
-                            <form method="post" id="form">
+                            <form action="index.php" method="post" id="form">
+
                                 <label for="fname" class="form-label"></label>
-                                <input type="text" id="fname" placeholder="First Name" class="floating-label" required><br><br>
+                                <input type="text" id="fname" placeholder="First Name" class="floating-label" name="firstName" required><br><br>
                                 <label for="lname"></label>
-                                <input type="text" id="lname" placeholder="Last Name" class="floating-label" required><br><br>
+                                <input type="text" id="lname" placeholder="Last Name" class="floating-label" name="lastName" required><br><br>
                                 <label for="email"></label>
-                                <input type="email" id="Email" placeholder="example@gmail.com" class="floating-label" required><br><br>
+                                <input type="email" id="Email" placeholder="example@gmail.com" class="floating-label" name="Email" required><br><br>
                                 <label for="Number"></label>
-                                <input type="phone number" id="phoneNumber" placeholder="Enter your phone Number" class="floating-label" aria-expanded="true" required><br><br>
-                                <button class="btn btn-primary" type="submit" value="register" onclick="
+                                <input type="phone number" id="phoneNumber" placeholder="Enter your phone Number" class="floating-label" aria-expanded="true" name="phoneNumber" required><br><br>
+                                <button class="btn btn-primary" type="submit" name="submit" value="register" onclick="
 
                                     if(firstName.value === '' || lastName.value === '' || email.value === '' || phoneNumber === '' ){
                                         alert('please fill in the above information');
@@ -281,6 +259,6 @@
 
 
     </script> -->
-    <script src="Main.js"></script>
+    <script src="Scripts/Main.js"></script>
 </body>
 </html>
