@@ -5,15 +5,9 @@
   justify-content: space-between;
 }
 .aboutme{
-  background: linear-gradient(to left,#8ecdff,whitesmoke);
   background-position: auto;
   background-attachment: scroll;
   background-size: cover;
- 
-  position: relative;
-  margin-left: -11px;
-  margin-right: -11px;
-  margin-bottom: 70px;
 }
 .aboutme-profile,
 .about-welcoming-text,
@@ -21,7 +15,6 @@
   text-align: center;
     
 }
-
 .aboutimage{
   display: flex;
   flex-direction: row;
@@ -29,12 +22,13 @@
   margin-bottom: 40px;
 }
 .about-col{
-  color: black;
+  color: #fff;
+  line-height: 3rem;
   flex-basis: 31%;
-  background: #99c9f1;
+  background: #6200ee;
   border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 24px 12px;
+  margin: 0 0;
+  padding: 1.5rem 1.8rem;
   box-sizing: border-box;
   transition: 0.3s;
   box-sizing: border-box;
@@ -44,6 +38,7 @@
   box-shadow: 0 0 20px 10px rgba(0,0,0,0.2);
 }
 .about-col:nth-child(1){
+  margin: 0 0 0 0.7rem;
   animation: moveFromBottom 1s normal;
 }
 .about-col:nth-child(3){

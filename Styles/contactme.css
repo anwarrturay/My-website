@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Roboto:wght@500&display=swap');
 /* CONTACT ME PAGE */
 .contact{
-  background: white;
+  background-color: #7725ea;
   background-repeat: no-repeat;
   background-attachment: scroll;
-
+  background-position: cover;
+  color: #feffff;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 0 7% 0;
 }
 .contactme-col{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
 }
 #contactMe{
   text-align: center;
@@ -22,14 +29,23 @@
 .contactme-picture{
   width: 240px;
 }
-
 .Details{
   font-size: 15px;
-  margin-top: 60px; 
+  line-height: 3rem;
 }
-.contactme-form{
-  margin-top: 60px;
-  margin-right: 30px;
+.contactme-form input{
+  font: inherit;
+  padding: 0.5rem 2rem;
+  outline: none;
+  width: 85%;
+}
+.contactme-form button{
+  font: inherit;
+  background-color: #6200ee;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 7px;
+  cursor: pointer;
 }
 .reachme-image{
   margin-left: 360px;
