@@ -1,3 +1,28 @@
-span{
-  color: #000;
+
+nav ul{
+  float: top center;
+  text-align: center;
+  list-style: none;
+}
+nav ul li{
+  margin: 1rem 2rem;
+  display: inline-block;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+nav ul li a::before{
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: .3s;
+}
+nav ul li a:hover::before{
+  width: 100%;
 }
