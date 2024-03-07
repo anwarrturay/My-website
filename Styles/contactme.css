@@ -9,7 +9,11 @@
   background-position: cover;
   color: #feffff;
   font-family: "Montserrat", sans-serif;
+<<<<<<< HEAD
   padding: 0 0 5% 0;
+=======
+  padding: 0 0 7% 0;
+>>>>>>> 398e0ba1d3759bde9f46fa769304d6fa87e4a1d6
 }
 .contactme-col{
   display: flex;
@@ -33,9 +37,12 @@
   font-size: 15px;
   line-height: 3rem;
 }
+<<<<<<< HEAD
 .contactme-form{
   margin: 5rem;
 }
+=======
+>>>>>>> 398e0ba1d3759bde9f46fa769304d6fa87e4a1d6
 .contactme-form input{
   font: inherit;
   padding: 0.5rem 2rem;

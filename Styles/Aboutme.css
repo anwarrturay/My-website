@@ -23,7 +23,11 @@
 }
 .about-col{
   color: #fff;
+<<<<<<< HEAD
   line-height: 2rem;
+=======
+  line-height: 3rem;
+>>>>>>> 398e0ba1d3759bde9f46fa769304d6fa87e4a1d6
   flex-basis: 31%;
   background: #6200ee;
   border-radius: 10px;
